@@ -1,0 +1,18 @@
+@mixin formpa{
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+@mixin casilla{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+@mixin estilo-texto($color, $font-size) {
+    color: $color;
+    font-size: $font-size;
+}

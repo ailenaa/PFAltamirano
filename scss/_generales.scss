@@ -1,0 +1,21 @@
+/*Estilos*/
+
+*{padding: 0;
+    margin: 0%;
+    box-sizing:border-box;
+    font-family: 'Dosis', sans-serif;
+    }
+    
+    body{
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    }
+
+    main{
+        background-color:map-get($colores, primario);
+    }
+
+    header,
+    footer{
+        background-color:map-get($colores, secundario);
+    }

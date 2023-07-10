@@ -1,0 +1,23 @@
+/* Colores Maps */
+$colores:(
+    primario:#e0deda,
+    secundario:#2e365f,
+    terciario:#4e698d,
+    cuarto:#9fafc5,
+    quinto:#657fa2,
+    sexto:#9dc4b5,
+    );
+
+/* footer redes */
+$redes-sociales: (
+        fa-facebook:#3b5998,
+        fa-instagram:#d1574c,
+        fa-whatsapp:#25D366,
+        fa-tiktok:#010101,
+    );
+
+    @each $red-social, $color in $redes-sociales {
+        .#{$red-social} {
+        color: $color;
+        }
+        };

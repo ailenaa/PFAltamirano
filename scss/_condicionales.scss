@@ -1,0 +1,20 @@
+/* Condicional Paciente */
+$letra: azul;
+
+@if $letra == negra{
+h1{
+color: #090909;
+}
+}
+
+@else if $letra == azul {
+h1{
+color:#1f11b0;
+}
+}
+
+@else{
+h1{
+color:#5e6e85;
+}
+}

@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap"); /* Colores Maps */
+/* footer redes */
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #d1574c;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+}
+
+.fa-tiktok {
+  color: #010101;
+}
+
+/*Estilos*/
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  background-color: #e0deda;
+}
+
+header,
+footer {
+  background-color: #2e365f;
+}
+
+/* Condicional Paciente */
+h1 {
+  color: #1f11b0;
+}
+
+/* Variables */
+/* Header */
+header {
+  width: 100%;
+}
+header nav a,
+header nav img {
+  max-width: 100%;
+  height: auto;
+}
+header nav div {
+  background-color: #2e365f;
+  justify-content: flex-end;
+}
+header nav ul {
+  margin: 20px;
+}
+header nav ul li {
+  margin-right: 20px;
+  transition: 0.5s;
+  font-size: 105%;
+  letter-spacing: 1px;
+}
+header nav ul li:hover {
+  transform: scale(1.2);
+  text-decoration: overline;
+}
+header nav ul li:hover a {
+  text-decoration: none;
+}
+
+/* Main */
+.OdoGeneral {
+  background-color: rgb(255, 255, 255);
+}
+.OdoGeneral .Container {
+  height: 100vh;
+  width: 96vw;
+  background-image: url(../imagenes/ver.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+  margin-top: 193px;
+}
+.OdoGeneral h1,
+.OdoGeneral p {
+  color: #090909;
+  background-color: transparent;
+  padding-top: 10px;
+}
+
+.MainCont {
+  margin-top: 30px;
+  display: flex;
+}
+.MainCont .Consejos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+  width: 50%;
+}
+.MainCont .Consejos img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.MainCont .Paciente {
+  margin-top: 50px;
+  padding: 5%;
+  width: 50%;
+}
+
+.FormaPago {
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+.FormaPago h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.FormaPago p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.FormaPago img {
+  width: 65%;
+  height: auto;
+}
+
+.Servicios {
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+.Servicios div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+}
+.Servicios div a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  transition: border-color 0.3s, transform 0.3s;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.Servicios div a:hover {
+  transform: scale(1.05);
+  background-color: #9dc4b5;
+}
+.Servicios img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.Servicios h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Conocenos {
+  position: relative;
+  background-color: transparent;
+}
+.Conocenos img {
+  width: 100%;
+}
+.Conocenos div {
+  background-color: #9FAFC5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Conocenos div h2,
+.Conocenos div p {
+  background-color: transparent;
+  text-align: center;
+}
+.Conocenos div button a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #000000;
+}
+
+/* Footer */
+footer {
+  color: #070707;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+footer a {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  margin-right: 15px;
+}
+footer ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+footer ul li {
+  margin-bottom: 2px;
+  text-align: center;
+}
+footer .footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-icons .fa-brands {
+  margin: 0 5px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+footer .footer-icons .fa-brands:hover {
+  transform: scale(1.6);
+}
+
+/*Servicios*/
+.ServiciosMain {
+  margin-top: 193px;
+}
+.ServiciosMain h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.ServiciosMain .wave img {
+  width: 100%;
+}
+
+/*Medios de pagos*/
+.InfoCont {
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 30px 20px 20px 20px;
+}
+.InfoCont .InfoItem h1 {
+  font-size: 24px;
+  padding: 15px;
+}
+.InfoCont .InfoItem h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.InfoCont .InfoItem p {
+  margin-bottom: 10px;
+}
+
+/*Pacientes*/
+.Paciente {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #e0deda;
+}
+.Paciente h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.Paciente form {
+  margin-bottom: 20px;
+}
+.Paciente form #username,
+.Paciente form #password {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.Paciente form button {
+  background-color: #9dc4b5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 1s;
+}
+.Paciente form button:hover {
+  transform: scale(1.2);
+  background-color: #bad9a2;
+}
+.Paciente form button:active {
+  background-color: #adbf97;
+}
+.Paciente form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.Paciente form p {
+  font-size: 14px;
+}
+
+/*Nosotros*/
+.Nosotros .BackNosotros {
+  margin-top: 193px;
+  display: flex;
+  max-width: 100%;
+  height: 70vh;
+  background-image: url(../imagenes/EquipoImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.9;
+}
+.Nosotros .BackNosotros h1 {
+  color: #ccc;
+  background-color: transparent;
+  padding: 35px;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.Nosotros h2 {
+  font-size: 38px;
+  text-align: center;
+  margin: 20px;
+}
+.Nosotros .QuienesSomos {
+  text-align: center;
+  padding: 10px;
+}
+.Nosotros .QuienesSomos img {
+  border-radius: 30px;
+}
+.Nosotros .QuienesSomos .contenido p {
+  color: #000000;
+  font-size: 110%;
+  line-height: 1.6;
+  padding: 5%;
+  word-wrap: break-word;
+}
+.Nosotros iframe {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Contacto */
+.Formulario {
+  margin-top: 193px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.Formulario h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.Formulario .FormularioForm {
+  width: 400px;
+}
+.Formulario .FormularioForm fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.Formulario .FormularioForm fieldset legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.Formulario .FormularioForm fieldset label {
+  display: block;
+  margin-bottom: 5px;
+}
+.Formulario .FormularioForm label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.Formulario .FormularioForm button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #9dc4b5;
+}
+.Formulario .FormularioForm button:hover {
+  background-color: #bad9a2;
+}
+.Formulario .FormularioForm button:active {
+  background-color: #adbf97;
+}
+.Formulario .FormularioForm textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Formulario .FormularioForm input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Formulario h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.Formulario iframe {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.Formulario .ContItem {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  width: 100%;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.Formulario .ContItem .ContItemCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9%;
+  font-size: 19px;
+}
+.Formulario .icono {
+  margin-right: 10px;
+}
+
+/*Pseudoclases y breakpoints*/
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+  .OdoGeneral .Container,
+  .MainCont .Consejos {
+    width: 100%;
+  }
+  .Conocenos div {
+    text-align: center;
+  }
+  footer {
+    display: block;
+    text-align: center;
+  }
+  footer p {
+    text-align: center;
+  }
+  .Servicios div {
+    display: block;
+  }
+  .MainCont .Paciente,
+  .FormaPago img {
+    display: none;
+  }
+  .contenido p {
+    font-size: 25px;
+  }
+  .ContItem {
+    display: flex;
+    flex-direction: column;
+  }
+  .Formulario iframe {
+    width: 100%;
+  }
+  .BackNosotros h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
