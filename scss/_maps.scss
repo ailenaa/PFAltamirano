@@ -14,6 +14,8 @@ $redes-sociales: (
         fa-instagram:#d1574c,
         fa-whatsapp:#25D366,
         fa-tiktok:#010101,
+        fa-envelope:#1a4d9a,
+        fa-map-marker-alt:#b07f2a,
     );
 
     @each $red-social, $color in $redes-sociales {

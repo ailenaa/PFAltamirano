@@ -41,9 +41,9 @@
     
     /* Main */
     
-    .OdoGeneral {
+    .odoGeneral {
         background-color: rgb(255, 255, 255);
-        .Container{
+        .contain{
             height: 100vh;
             width: 96vw;
             background-image: url(../imagenes/ver.jpg);
@@ -59,10 +59,10 @@
             padding-top: 10px;
         }
     }
-    .MainCont {
+    .mainCont {
         margin-top: 30px;
         display: flex;
-        .Consejos {
+        .consejos {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -82,13 +82,13 @@
                 border-radius: 10px;
             }
         }
-        .Paciente{
+        .paciente{
             margin-top: 50px;
             padding: 5%;
             width: 50%;
         }
     }
-    .FormaPago {
+    .formaPago {
         padding: 25px;
         text-align: center;
         border: 2px solid #ccc;
@@ -107,7 +107,7 @@
             height: auto;
         }
     }
-    .Servicios {
+    .servicios {
         padding: 25px;
         text-align: center;
         border: 2px solid #ccc;
@@ -144,7 +144,7 @@
             margin-bottom: 10px;
         }
     }
-    .Conocenos {
+    .conocenos {
         position: relative;
         background-color: transparent;
         img {
@@ -248,7 +248,7 @@
     }
     
     /*Pacientes*/
-    .Paciente {
+    .paciente {
         width: $ancho-imagen;
         margin: 0 auto;
         padding: 10px;
@@ -345,7 +345,7 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            padding: 5px;
+            padding: 10px;
             h1 {
                 font-size: 28px;
                 margin-bottom: 20px;
@@ -369,6 +369,7 @@
                 @include casilla;
             }
                 button {
+                    margin: 10px;
                     padding: 10px 20px;
                     border: none;
                     border-radius: 4px;
@@ -432,11 +433,11 @@
         header{
             text-align: center;
         }
-        .OdoGeneral .Container,
-        .MainCont .Consejos{
+        .odoGeneral .container,
+        .mainCont .consejos{
             width: 100%;
         }
-        .Conocenos div {
+        .conocenos div {
             text-align: center;
         }
         footer{
@@ -446,11 +447,11 @@
         footer p{
             text-align: center;
         }
-        .Servicios div{
-        display: block;
+        .servicios div{
+        grid-template-columns: 1fr;
         }
-        .MainCont .Paciente , 
-        .FormaPago img{
+        .mainCont .paciente , 
+        .formaPago img{
             display: none;
         }
         .contenido p{

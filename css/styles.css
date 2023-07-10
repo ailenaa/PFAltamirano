@@ -16,6 +16,14 @@
   color: #010101;
 }
 
+.fa-envelope {
+  color: #1a4d9a;
+}
+
+.fa-map-marker-alt {
+  color: #b07f2a;
+}
+
 /*Estilos*/
 * {
   padding: 0;
@@ -75,10 +83,10 @@ header nav ul li:hover a {
 }
 
 /* Main */
-.OdoGeneral {
+.odoGeneral {
   background-color: rgb(255, 255, 255);
 }
-.OdoGeneral .Container {
+.odoGeneral .contain {
   height: 100vh;
   width: 96vw;
   background-image: url(../imagenes/ver.jpg);
@@ -87,18 +95,18 @@ header nav ul li:hover a {
   text-align: right;
   margin-top: 193px;
 }
-.OdoGeneral h1,
-.OdoGeneral p {
+.odoGeneral h1,
+.odoGeneral p {
   color: #090909;
   background-color: transparent;
   padding-top: 10px;
 }
 
-.MainCont {
+.mainCont {
   margin-top: 30px;
   display: flex;
 }
-.MainCont .Consejos {
+.mainCont .consejos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +118,7 @@ header nav ul li:hover a {
   margin: 10px;
   width: 50%;
 }
-.MainCont .Consejos img {
+.mainCont .consejos img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -118,46 +126,46 @@ header nav ul li:hover a {
   margin-bottom: 20px;
   border-radius: 10px;
 }
-.MainCont .Paciente {
+.mainCont .paciente {
   margin-top: 50px;
   padding: 5%;
   width: 50%;
 }
 
-.FormaPago {
+.formaPago {
   padding: 25px;
   text-align: center;
   border: 2px solid #ccc;
   border-radius: 10px;
   margin: 20px;
 }
-.FormaPago h2 {
+.formaPago h2 {
   font-size: 24px;
   font-weight: bold;
 }
-.FormaPago p {
+.formaPago p {
   font-size: 16px;
   margin-bottom: 20px;
 }
-.FormaPago img {
+.formaPago img {
   width: 65%;
   height: auto;
 }
 
-.Servicios {
+.servicios {
   padding: 25px;
   text-align: center;
   border: 2px solid #ccc;
   border-radius: 10px;
   margin: 20px;
 }
-.Servicios div {
+.servicios div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   text-align: center;
 }
-.Servicios div a {
+.servicios div a {
   display: block;
   text-decoration: none;
   color: #000000;
@@ -166,41 +174,41 @@ header nav ul li:hover a {
   border-radius: 5px;
   text-transform: uppercase;
 }
-.Servicios div a:hover {
+.servicios div a:hover {
   transform: scale(1.05);
   background-color: #9dc4b5;
 }
-.Servicios img {
+.servicios img {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-.Servicios h2 {
+.servicios h2 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.Conocenos {
+.conocenos {
   position: relative;
   background-color: transparent;
 }
-.Conocenos img {
+.conocenos img {
   width: 100%;
 }
-.Conocenos div {
+.conocenos div {
   background-color: #9FAFC5;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.Conocenos div h2,
-.Conocenos div p {
+.conocenos div h2,
+.conocenos div p {
   background-color: transparent;
   text-align: center;
 }
-.Conocenos div button a {
+.conocenos div button a {
   text-decoration: none;
   background-color: transparent;
   color: #000000;
@@ -281,7 +289,7 @@ footer .footer-icons .fa-brands:hover {
 }
 
 /*Pacientes*/
-.Paciente {
+.paciente {
   width: 100%;
   margin: 0 auto;
   padding: 10px;
@@ -289,22 +297,22 @@ footer .footer-icons .fa-brands:hover {
   text-align: center;
   background-color: #e0deda;
 }
-.Paciente h1 {
+.paciente h1 {
   font-size: 24px;
   margin-bottom: 20px;
 }
-.Paciente form {
+.paciente form {
   margin-bottom: 20px;
 }
-.Paciente form #username,
-.Paciente form #password {
+.paciente form #username,
+.paciente form #password {
   width: 40%;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 3px;
   border: 1px solid #ccc;
 }
-.Paciente form button {
+.paciente form button {
   background-color: #9dc4b5;
   color: white;
   padding: 10px 20px;
@@ -313,19 +321,19 @@ footer .footer-icons .fa-brands:hover {
   cursor: pointer;
   transition: 1s;
 }
-.Paciente form button:hover {
+.paciente form button:hover {
   transform: scale(1.2);
   background-color: #bad9a2;
 }
-.Paciente form button:active {
+.paciente form button:active {
   background-color: #adbf97;
 }
-.Paciente form label {
+.paciente form label {
   display: block;
   font-size: 16px;
   margin-bottom: 5px;
 }
-.Paciente form p {
+.paciente form p {
   font-size: 14px;
 }
 
@@ -381,7 +389,7 @@ footer .footer-icons .fa-brands:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
 .Formulario h1 {
   font-size: 28px;
@@ -409,6 +417,7 @@ footer .footer-icons .fa-brands:hover {
   margin-bottom: 5px;
 }
 .Formulario .FormularioForm button {
+  margin: 10px;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -468,11 +477,11 @@ footer .footer-icons .fa-brands:hover {
   header {
     text-align: center;
   }
-  .OdoGeneral .Container,
-  .MainCont .Consejos {
+  .odoGeneral .container,
+  .mainCont .consejos {
     width: 100%;
   }
-  .Conocenos div {
+  .conocenos div {
     text-align: center;
   }
   footer {
@@ -482,11 +491,11 @@ footer .footer-icons .fa-brands:hover {
   footer p {
     text-align: center;
   }
-  .Servicios div {
-    display: block;
+  .servicios div {
+    grid-template-columns: 1fr;
   }
-  .MainCont .Paciente,
-  .FormaPago img {
+  .mainCont .paciente,
+  .formaPago img {
     display: none;
   }
   .contenido p {
