@@ -5,39 +5,7 @@
     @import 'generales';
     @import 'condicionales';
     @import 'variables';
-    
-
-    /* Header */
-    header {
-        width: $ancho-imagen;
-        nav{
-        a,
-        img {
-            max-width: $ancho-imagen;
-            height: auto;
-        }
-        div {
-            background-color:map-get($colores, secundario);
-            justify-content: flex-end;
-        }
-        ul {
-            margin: 20px;
-            li {
-                margin-right: 20px;
-                transition: .5s;
-                font-size: 105%;
-                letter-spacing: 1px;
-                &:hover{
-                    transform: scale(1.2);
-                    text-decoration: overline;
-                    a {
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
-    }
-    }
+    @import 'header';
     
     /* Main */
     
@@ -339,18 +307,18 @@
     }
     /* Contacto */
 
-    .Formulario {
+    .formulario {
             margin-top: 193px;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            padding: 10px;
             h1 {
                 font-size: 28px;
                 margin-bottom: 20px;
             }
-            .FormularioForm {
+            .formularioForm {
+                padding: 10px;
                 width: 400px;
                 fieldset {
                     border: none;
@@ -361,12 +329,10 @@
                     margin-bottom: 10px;
                 }
                 label {
-                    display: block;
-                    margin-bottom: 5px;
+                    @include casilla;
+                    padding: 8px;
+                    font-size: 20px;
                 }
-            }
-            label {
-                @include casilla;
             }
                 button {
                     margin: 10px;
@@ -406,7 +372,7 @@
                 margin-bottom: 20px;
                 
             }
-            .ContItem {
+            .contItem {
                 display: flex;
                 align-items: center;
                 margin: 25px;
@@ -414,7 +380,7 @@
                 border: 3px solid #ccc;
                 border-radius: 10px;
                 justify-content: space-around;
-                .ContItemCont {
+                .contItemCont {
                     display: flex;
                     flex-direction: column;
                     align-items:center;
@@ -457,14 +423,14 @@
         .contenido p{
             font-size: 25px;
         }
-        .ContItem{
+        .contItem{
             display: flex;
             flex-direction: column;
         }
-        .Formulario iframe{
+        .formulario iframe{
             width: 100%;
         }
-        .BackNosotros h1{
+        .backNosotros h1{
             width: 100%;
             text-align: center;
         }

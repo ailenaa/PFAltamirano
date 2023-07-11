@@ -43,7 +43,7 @@ main {
 
 header,
 footer {
-  background-color: #2e365f;
+  background-color: #353f7b;
 }
 
 /* Condicional Paciente */
@@ -51,8 +51,7 @@ h1 {
   color: #1f11b0;
 }
 
-/* Variables */
-/* Header */
+/* Variables */ /* Header */
 header {
   width: 100%;
 }
@@ -62,7 +61,7 @@ header nav img {
   height: auto;
 }
 header nav div {
-  background-color: #2e365f;
+  background-color: #353f7b;
   justify-content: flex-end;
 }
 header nav ul {
@@ -383,40 +382,38 @@ footer .footer-icons .fa-brands:hover {
 }
 
 /* Contacto */
-.Formulario {
+.formulario {
   margin-top: 193px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 10px;
 }
-.Formulario h1 {
+.formulario h1 {
   font-size: 28px;
   margin-bottom: 20px;
 }
-.Formulario .FormularioForm {
+.formulario .formularioForm {
+  padding: 10px;
   width: 400px;
 }
-.Formulario .FormularioForm fieldset {
+.formulario .formularioForm fieldset {
   border: none;
   padding: 0;
   margin-bottom: 20px;
 }
-.Formulario .FormularioForm fieldset legend {
+.formulario .formularioForm fieldset legend {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.Formulario .FormularioForm fieldset label {
-  display: block;
-  margin-bottom: 5px;
-}
-.Formulario .FormularioForm label {
+.formulario .formularioForm fieldset label {
   display: block;
   font-size: 16px;
   margin-bottom: 5px;
+  padding: 8px;
+  font-size: 20px;
 }
-.Formulario .FormularioForm button {
+.formulario .formularioForm button {
   margin: 10px;
   padding: 10px 20px;
   border: none;
@@ -425,34 +422,34 @@ footer .footer-icons .fa-brands:hover {
   font-size: 16px;
   background-color: #9dc4b5;
 }
-.Formulario .FormularioForm button:hover {
+.formulario .formularioForm button:hover {
   background-color: #bad9a2;
 }
-.Formulario .FormularioForm button:active {
+.formulario .formularioForm button:active {
   background-color: #adbf97;
 }
-.Formulario .FormularioForm textarea {
+.formulario .formularioForm textarea {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.Formulario .FormularioForm input {
+.formulario .formularioForm input {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.Formulario h4 {
+.formulario h4 {
   font-size: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.Formulario iframe {
+.formulario iframe {
   width: 50%;
   margin-bottom: 20px;
 }
-.Formulario .ContItem {
+.formulario .contItem {
   display: flex;
   align-items: center;
   margin: 25px;
@@ -461,14 +458,14 @@ footer .footer-icons .fa-brands:hover {
   border-radius: 10px;
   justify-content: space-around;
 }
-.Formulario .ContItem .ContItemCont {
+.formulario .contItem .contItemCont {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 9%;
   font-size: 19px;
 }
-.Formulario .icono {
+.formulario .icono {
   margin-right: 10px;
 }
 
@@ -501,14 +498,14 @@ footer .footer-icons .fa-brands:hover {
   .contenido p {
     font-size: 25px;
   }
-  .ContItem {
+  .contItem {
     display: flex;
     flex-direction: column;
   }
-  .Formulario iframe {
+  .formulario iframe {
     width: 100%;
   }
-  .BackNosotros h1 {
+  .backNosotros h1 {
     width: 100%;
     text-align: center;
   }
