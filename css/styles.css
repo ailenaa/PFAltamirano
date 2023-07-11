@@ -361,7 +361,7 @@ footer .footer-icons .fa-brands:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 .nosotros h2 {
-  font-size: 38px;
+  font-size: 40px;
   text-align: center;
   margin: 20px;
 }
@@ -376,7 +376,7 @@ footer .footer-icons .fa-brands:hover {
   color: #000000;
   font-size: 23px;
   line-height: 1.1;
-  padding: 3%;
+  padding: 5%;
   word-wrap: break-word;
 }
 .nosotros iframe {
