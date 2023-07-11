@@ -178,7 +178,7 @@
     
     /*Servicios*/
     
-    .ServiciosMain{ 
+    .serviciosMain{ 
         margin-top: 193px;
         h1 {
         font-size: 32px; 
@@ -190,17 +190,22 @@
         .wave img{
             width: $ancho-imagen;
         }
+        .formulario{
+            margin: 0;
+        }
     }
 
     /*Medios de pagos*/
-    .InfoCont{
+    .infoCont{
+        margin-top: $margen-top;
         padding: 20px;
         text-align: center;
-        border: 2px solid #ccc;
         border-radius: 10px;
         padding: 25px;
-        margin: 30px 20px 20px 20px;
-        .InfoItem{
+        img{
+            border-radius: 5px;
+        }
+        .infoItem{
             h1 {
                 font-size: 24px;
                 padding: 15px;
@@ -217,12 +222,11 @@
     
     /*Pacientes*/
     .paciente {
+        margin-top: $margen-top;
         width: $ancho-imagen;
-        margin: 0 auto;
         padding: 10px;
         border-radius: 5px;
         text-align: center;
-        background-color: #e0deda;
         h1 {
             font-size: 24px;
             margin-bottom: 20px;
@@ -258,7 +262,6 @@
     }
     }
     /*Nosotros*/
-    
     .nosotros{
         .backNosotros {
             margin-top: $margen-top;
@@ -306,7 +309,6 @@
         }
     }
     /* Contacto */
-
     .formulario {
             margin-top: 193px;
             display: flex;

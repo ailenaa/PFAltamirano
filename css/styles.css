@@ -48,7 +48,7 @@ footer {
 
 /* Condicional Paciente */
 h1 {
-  color: #1f11b0;
+  color: #23204a;
 }
 
 /* Variables */ /* Header */
@@ -252,49 +252,53 @@ footer .footer-icons .fa-brands:hover {
 }
 
 /*Servicios*/
-.ServiciosMain {
+.serviciosMain {
   margin-top: 193px;
 }
-.ServiciosMain h1 {
+.serviciosMain h1 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
   padding: 5px;
 }
-.ServiciosMain .wave img {
+.serviciosMain .wave img {
   width: 100%;
+}
+.serviciosMain .formulario {
+  margin: 0;
 }
 
 /*Medios de pagos*/
-.InfoCont {
+.infoCont {
+  margin-top: 193px;
   padding: 20px;
   text-align: center;
-  border: 2px solid #ccc;
   border-radius: 10px;
   padding: 25px;
-  margin: 30px 20px 20px 20px;
 }
-.InfoCont .InfoItem h1 {
+.infoCont img {
+  border-radius: 5px;
+}
+.infoCont .infoItem h1 {
   font-size: 24px;
   padding: 15px;
 }
-.InfoCont .InfoItem h3 {
+.infoCont .infoItem h3 {
   font-size: 18px;
   margin-bottom: 5px;
 }
-.InfoCont .InfoItem p {
+.infoCont .infoItem p {
   margin-bottom: 10px;
 }
 
 /*Pacientes*/
 .paciente {
+  margin-top: 193px;
   width: 100%;
-  margin: 0 auto;
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  background-color: #e0deda;
 }
 .paciente h1 {
   font-size: 24px;
