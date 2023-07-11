@@ -259,8 +259,8 @@
     }
     /*Nosotros*/
     
-    .Nosotros{
-        .BackNosotros {
+    .nosotros{
+        .backNosotros {
             margin-top: $margen-top;
             display: flex;
             max-width: 100%;
@@ -284,7 +284,7 @@
             text-align: center;
             margin:20px;
         }
-        .QuienesSomos{
+        .quienesSomos{
             text-align: center;
             padding: 10px;
         img {
@@ -292,17 +292,17 @@
         }
         .contenido{
             p {
-                @include estilo-texto(#000000, 110%);
-                line-height: 1.6;
-                padding: 5%;
+                @include estilo-texto(#000000, 23px);
+                line-height: 1.1;
+                padding: 3%;
                 word-wrap: break-word;
             }
         }
         }
         iframe {
-            display: block;
+            display: flex;
+            justify-content: center;
             margin: auto;
-            margin-top: 20px;
         }
     }
     /* Contacto */
@@ -405,6 +405,7 @@
         }
         .conocenos div {
             text-align: center;
+            font-size: 16px;
         }
         footer{
             display: block;
@@ -420,9 +421,6 @@
         .formaPago img{
             display: none;
         }
-        .contenido p{
-            font-size: 25px;
-        }
         .contItem{
             display: flex;
             flex-direction: column;
@@ -431,8 +429,11 @@
             width: 100%;
         }
         .backNosotros h1{
-            width: 100%;
             text-align: center;
+            width: 100%;
         }
+        .nosotros .backNosotros{
+            height: 50vh;
         }
+    }
     

@@ -337,7 +337,7 @@ footer .footer-icons .fa-brands:hover {
 }
 
 /*Nosotros*/
-.Nosotros .BackNosotros {
+.nosotros .backNosotros {
   margin-top: 193px;
   display: flex;
   max-width: 100%;
@@ -349,36 +349,36 @@ footer .footer-icons .fa-brands:hover {
   position: relative;
   opacity: 0.9;
 }
-.Nosotros .BackNosotros h1 {
+.nosotros .backNosotros h1 {
   color: #ccc;
   background-color: transparent;
   padding: 35px;
   font-size: 60px;
   color: rgba(255, 255, 255, 0.7);
 }
-.Nosotros h2 {
+.nosotros h2 {
   font-size: 38px;
   text-align: center;
   margin: 20px;
 }
-.Nosotros .QuienesSomos {
+.nosotros .quienesSomos {
   text-align: center;
   padding: 10px;
 }
-.Nosotros .QuienesSomos img {
+.nosotros .quienesSomos img {
   border-radius: 30px;
 }
-.Nosotros .QuienesSomos .contenido p {
+.nosotros .quienesSomos .contenido p {
   color: #000000;
-  font-size: 110%;
-  line-height: 1.6;
-  padding: 5%;
+  font-size: 23px;
+  line-height: 1.1;
+  padding: 3%;
   word-wrap: break-word;
 }
-.Nosotros iframe {
-  display: block;
+.nosotros iframe {
+  display: flex;
+  justify-content: center;
   margin: auto;
-  margin-top: 20px;
 }
 
 /* Contacto */
@@ -480,6 +480,7 @@ footer .footer-icons .fa-brands:hover {
   }
   .conocenos div {
     text-align: center;
+    font-size: 16px;
   }
   footer {
     display: block;
@@ -495,9 +496,6 @@ footer .footer-icons .fa-brands:hover {
   .formaPago img {
     display: none;
   }
-  .contenido p {
-    font-size: 25px;
-  }
   .contItem {
     display: flex;
     flex-direction: column;
@@ -506,8 +504,11 @@ footer .footer-icons .fa-brands:hover {
     width: 100%;
   }
   .backNosotros h1 {
-    width: 100%;
     text-align: center;
+    width: 100%;
+  }
+  .nosotros .backNosotros {
+    height: 50vh;
   }
 }
 
