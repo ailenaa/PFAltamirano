@@ -43,7 +43,7 @@ main {
 
 header,
 footer {
-  background-color: #353f7b;
+  background-color: #3c4368;
 }
 
 /* Condicional Paciente */
@@ -61,7 +61,7 @@ header nav img {
   height: auto;
 }
 header nav div {
-  background-color: #353f7b;
+  background-color: #3c4368;
   justify-content: flex-end;
 }
 header nav ul {
@@ -81,7 +81,45 @@ header nav ul li:hover a {
   text-decoration: none;
 }
 
-/* Main */
+/* Footer */
+footer {
+  color: #070707;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+footer a {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  margin-right: 15px;
+}
+footer ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+footer ul li {
+  margin-bottom: 2px;
+  text-align: center;
+}
+footer .footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-icons .fa-brands {
+  margin: 0 5px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+footer .footer-icons .fa-brands:hover {
+  transform: scale(1.6);
+}
+
+/*pagina princilal*/
 .odoGeneral {
   background-color: rgb(255, 255, 255);
 }
@@ -213,86 +251,7 @@ header nav ul li:hover a {
   color: #000000;
 }
 
-/* Footer */
-footer {
-  color: #070707;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-}
-footer a {
-  color: #000000;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  transition: 0.5s;
-  margin-right: 15px;
-}
-footer ul {
-  list-style-type: none;
-  font-size: 18px;
-}
-footer ul li {
-  margin-bottom: 2px;
-  text-align: center;
-}
-footer .footer-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer .footer-icons .fa-brands {
-  margin: 0 5px;
-  font-size: 25px;
-  transition: 0.5s;
-}
-footer .footer-icons .fa-brands:hover {
-  transform: scale(1.6);
-}
-
-/*Servicios*/
-.serviciosMain {
-  margin-top: 193px;
-}
-.serviciosMain h1 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-  padding: 5px;
-}
-.serviciosMain .wave img {
-  width: 100%;
-}
-.serviciosMain .formulario {
-  margin: 0;
-}
-
-/*Medios de pagos*/
-.infoCont {
-  margin-top: 193px;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 25px;
-}
-.infoCont img {
-  border-radius: 5px;
-}
-.infoCont .infoItem h1 {
-  font-size: 24px;
-  padding: 15px;
-}
-.infoCont .infoItem h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-.infoCont .infoItem p {
-  margin-bottom: 10px;
-}
-
-/*Pacientes*/
+/*formulario paciente*/
 .paciente {
   margin-top: 193px;
   width: 100%;
@@ -340,52 +299,7 @@ footer .footer-icons .fa-brands:hover {
   font-size: 14px;
 }
 
-/*Nosotros*/
-.nosotros .backNosotros {
-  margin-top: 193px;
-  display: flex;
-  max-width: 100%;
-  height: 70vh;
-  background-image: url(../imagenes/EquipoImg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  opacity: 0.9;
-}
-.nosotros .backNosotros h1 {
-  color: #ccc;
-  background-color: transparent;
-  padding: 35px;
-  font-size: 60px;
-  color: rgba(255, 255, 255, 0.7);
-}
-.nosotros h2 {
-  font-size: 40px;
-  text-align: center;
-  margin: 20px;
-}
-.nosotros .quienesSomos {
-  text-align: center;
-  padding: 10px;
-}
-.nosotros .quienesSomos img {
-  border-radius: 30px;
-}
-.nosotros .quienesSomos .contenido p {
-  color: #000000;
-  font-size: 23px;
-  line-height: 1.1;
-  padding: 5%;
-  word-wrap: break-word;
-}
-.nosotros iframe {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-
-/* Contacto */
+/* formulario contacto */
 .formulario {
   margin-top: 193px;
   display: flex;
@@ -473,7 +387,7 @@ footer .footer-icons .fa-brands:hover {
   margin-right: 10px;
 }
 
-/*Pseudoclases y breakpoints*/
+/*Pseudoclases */
 @media (max-width: 768px) {
   header {
     text-align: center;
@@ -514,6 +428,90 @@ footer .footer-icons .fa-brands:hover {
   .nosotros .backNosotros {
     height: 50vh;
   }
+}
+/*Servicios*/
+.serviciosMain {
+  margin-top: 193px;
+}
+.serviciosMain h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.serviciosMain .wave img {
+  width: 100%;
+}
+.serviciosMain .formulario {
+  margin: 0;
+}
+
+/*Medios de pagos*/
+.infoCont {
+  margin-top: 193px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+}
+.infoCont img {
+  border-radius: 5px;
+}
+.infoCont .infoItem h1 {
+  font-size: 24px;
+  padding: 15px;
+}
+.infoCont .infoItem h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.infoCont .infoItem p {
+  margin-bottom: 10px;
+}
+
+/*Nosotros*/
+.nosotros .backNosotros {
+  margin-top: 193px;
+  display: flex;
+  max-width: 100%;
+  height: 70vh;
+  background-image: url(../imagenes/EquipoImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.9;
+}
+.nosotros .backNosotros h1 {
+  color: #ccc;
+  background-color: transparent;
+  padding: 35px;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.nosotros h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+.nosotros .quienesSomos {
+  text-align: center;
+  padding: 10px;
+}
+.nosotros .quienesSomos img {
+  border-radius: 30px;
+}
+.nosotros .quienesSomos .contenido p {
+  color: #000000;
+  font-size: 23px;
+  padding: 5%;
+  word-wrap: break-word;
+}
+.nosotros iframe {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

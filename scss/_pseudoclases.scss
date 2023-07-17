@@ -1,0 +1,43 @@
+/*Pseudoclases */
+
+@media (max-width:768px){
+    header{
+        text-align: center;
+    }
+    .odoGeneral .container,
+    .mainCont .consejos{
+        width: 100%;
+    }
+    .conocenos div {
+        text-align: center;
+        font-size: 16px;
+    }
+    footer{
+        display: block;
+        text-align: center;
+    }
+    footer p{
+        text-align: center;
+    }
+    .servicios div{
+    grid-template-columns: 1fr;
+    }
+    .mainCont .paciente , 
+    .formaPago img{
+        display: none;
+    }
+    .contItem{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario iframe{
+        width: 100%;
+    }
+    .backNosotros h1{
+        text-align: center;
+        width: 100%;
+    }
+    .nosotros .backNosotros{
+        height: 50vh;
+    }
+}

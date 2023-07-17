@@ -1,0 +1,129 @@
+/*pagina princilal*/
+.odoGeneral {
+    background-color: rgb(255, 255, 255);
+    .contain{
+        height: 100vh;
+        width: 96vw;
+        background-image: url(../imagenes/ver.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: right;
+        margin-top: $margen-top;
+    }
+    h1,
+    p {
+        color: #090909;
+        background-color: transparent;
+        padding-top: 10px;
+    }
+}
+.mainCont {
+    margin-top: 30px;
+    display: flex;
+    .consejos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        margin: 10px;
+        width: 50%;
+        img {
+            max-width: $ancho-imagen;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+    }
+    .paciente{
+        margin-top: 50px;
+        padding: 5%;
+        width: 50%;
+    }
+}
+.formaPago {
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    img {
+        width: 65%;
+        height: auto;
+    }
+}
+.servicios {
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        text-align: center;
+        a {
+            display: block;
+            text-decoration:none;
+            color: #000000;
+            padding: 10px;
+            transition: border-color 0.3s, transform 0.3s;
+            border-radius: 5px;
+            text-transform: uppercase;
+            &:hover {
+                transform: scale(1.05);
+                background-color: #9dc4b5;
+            }
+        }
+    }
+    img {
+        width: $ancho-imagen;
+        height: auto;
+        border-radius: 8px;
+    }
+    h2 {
+        font-size: 24px; 
+        font-weight: bold; 
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+.conocenos {
+    position: relative;
+    background-color: transparent;
+    img {
+        width: $ancho-imagen;
+    }
+    div {
+        background-color:#9FAFC5 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2,
+        p{
+            background-color: transparent;
+            text-align: center;
+        }
+        button{
+            a{
+                text-decoration: none;
+                background-color: transparent;
+                color: #000000;
+            }
+        }
+    }
+}
