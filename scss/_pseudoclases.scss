@@ -1,6 +1,6 @@
 /*Pseudoclases */
 
-@media (max-width:768px){
+@media (max-width:468px){
     header{
         text-align: center;
     }
@@ -33,11 +33,9 @@
     .formulario iframe{
         width: 100%;
     }
-    .backNosotros h1{
-        text-align: center;
-        width: 100%;
+    
+    .nosotros img {
+        width: 50%;
     }
-    .nosotros .backNosotros{
-        height: 50vh;
-    }
+    
 }

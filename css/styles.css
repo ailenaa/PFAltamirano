@@ -388,8 +388,93 @@ footer .footer-icons .fa-brands:hover {
   margin-right: 10px;
 }
 
+/*Servicios*/
+.serviciosMain {
+  margin-top: 193px;
+}
+.serviciosMain h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.serviciosMain .wave img {
+  width: 100%;
+}
+.serviciosMain .formulario {
+  margin: 0;
+}
+
+/*Medios de pagos*/
+.infoCont {
+  margin-top: 193px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+}
+.infoCont img {
+  border-radius: 5px;
+  width: 70%;
+}
+.infoCont .infoItem h1 {
+  font-size: 24px;
+  padding: 15px;
+}
+.infoCont .infoItem h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.infoCont .infoItem p {
+  margin-bottom: 10px;
+}
+
+/*Nosotros*/
+.nosotros .backNosotros {
+  margin-top: 193px;
+  display: flex;
+  max-width: 100%;
+  height: 70vh;
+  background-image: url(../imagenes/EquipoImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.9;
+}
+.nosotros .backNosotros h1 {
+  color: #ccc;
+  background-color: transparent;
+  padding: 35px;
+  font-size: 60px;
+}
+.nosotros h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+.nosotros .quienesSomos {
+  text-align: center;
+  padding: 10px;
+}
+.nosotros .quienesSomos img {
+  border-radius: 30px;
+}
+.nosotros .quienesSomos .contenido p {
+  color: #000000;
+  font-size: 23px;
+  padding: 5%;
+  word-wrap: break-word;
+}
+.nosotros iframe {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
 /*Pseudoclases */
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   header {
     text-align: center;
   }
@@ -422,97 +507,9 @@ footer .footer-icons .fa-brands:hover {
   .formulario iframe {
     width: 100%;
   }
-  .backNosotros h1 {
-    text-align: center;
-    width: 100%;
+  .nosotros img {
+    width: 50%;
   }
-  .nosotros .backNosotros {
-    height: 50vh;
-  }
-}
-/*Servicios*/
-.serviciosMain {
-  margin-top: 193px;
-}
-.serviciosMain h1 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-  padding: 5px;
-}
-.serviciosMain .wave img {
-  width: 100%;
-}
-.serviciosMain .formulario {
-  margin: 0;
-}
-
-/*Medios de pagos*/
-.infoCont {
-  margin-top: 193px;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 25px;
-}
-.infoCont img {
-  border-radius: 5px;
-}
-.infoCont .infoItem h1 {
-  font-size: 24px;
-  padding: 15px;
-}
-.infoCont .infoItem h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-.infoCont .infoItem p {
-  margin-bottom: 10px;
-}
-
-/*Nosotros*/
-.nosotros .backNosotros {
-  margin-top: 193px;
-  display: flex;
-  max-width: 100%;
-  height: 70vh;
-  background-image: url(../imagenes/EquipoImg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  opacity: 0.9;
-}
-.nosotros .backNosotros h1 {
-  color: #ccc;
-  background-color: transparent;
-  padding: 35px;
-  font-size: 60px;
-  color: rgba(255, 255, 255, 0.7);
-}
-.nosotros h2 {
-  font-size: 40px;
-  text-align: center;
-  margin: 20px;
-}
-.nosotros .quienesSomos {
-  text-align: center;
-  padding: 10px;
-}
-.nosotros .quienesSomos img {
-  border-radius: 30px;
-}
-.nosotros .quienesSomos .contenido p {
-  color: #000000;
-  font-size: 23px;
-  padding: 5%;
-  word-wrap: break-word;
-}
-.nosotros iframe {
-  display: flex;
-  justify-content: center;
-  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
