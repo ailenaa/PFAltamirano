@@ -6,9 +6,11 @@
 Este repositorio contiene el código fuente y los recursos para el sitio web del Consultorio Odontológico "Od Agustina Vottero". 
 El sitio web proporciona información sobre los servicios ofrecidos, el equipo de profesionales, horarios de atención y formas de contacto.
 
-## Capturas de pantalla
+Capturas de pantalla
 
-Adjunta aquí algunas capturas de pantalla del sitio web para que los visitantes puedan tener una vista previa del diseño y la apariencia del sitio.
+<img width="943" alt="Captura de pantalla 2023-07-26 122939" src="https://github.com/ailenaa/PreEntrega3AltamiranoAilen/assets/112736256/1f2add88-ad7c-4e7f-94a7-fabe0f49ea5f">
+
+<img width="934" alt="Captura de pantalla 2023-07-26 123022" src="https://github.com/ailenaa/PreEntrega3AltamiranoAilen/assets/112736256/0caee13b-fadb-4ce5-abf3-6c5297a91c52">
 
 ## Tecnologías utilizadas
 
@@ -19,10 +21,9 @@ Adjunta aquí algunas capturas de pantalla del sitio web para que los visitantes
 
 ## Características
 
-- Información detallada sobre los servicios ofrecidos por el consultorio.
-- Perfil de cada profesional con su experiencia y especialidad.
-- Formulario de contacto para solicitar citas o realizar consultas.
-- Horarios de atención y ubicación del consultorio.
+- En nuestro consultorio odontológico ofrecemos servicios de alta calidad para el cuidado de tu salud bucal. Nuestro equipo de dentistas altamente capacitados te brindará atención personalizada y tratamientos dentales modernos. Desde limpiezas y blanqueamientos hasta implantes y ortodoncia, estamos aquí para ayudarte a mantener una sonrisa saludable y radiante. ¡Agenda tu cita hoy mismo!
+- Agustina Vottero , fundadora del centro odontóloga profesional es un experta en la salud bucal con una sólida educación, habilidades técnicas, ética, empatía y capacidad de comunicación. Su objetivo principal es mejorar la salud oral de sus pacientes y mantenerse actualizado para ofrecer el mejor tratamiento posible.
+- Lunes a Viernes 9:00 a 18:00
 
 ## Contribución
 
@@ -36,5 +37,4 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
 ## Contacto
 
-Para cualquier consulta o duda relacionada con el proyecto, puedes contactarme a través de [correo@example.com](mailto:correo@example.com) 
-o visitar nuestro sitio web en [www.sonrisas-saludables.com](https://www.sonrisas-saludables.com).
+Para cualquier consulta o duda relacionada con el proyecto, puedes contactarme a través de [correo@example.com](altamiranoailen95@gmail.com)
