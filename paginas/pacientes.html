@@ -11,7 +11,10 @@
       Accede a nuestro portal para pacientes y gestiona tu salud dental de manera conveniente. 
       Agenda citas, accede a tu historial clínico y más."
     />
-    <meta name="keywords" content="portal de pacientes, gestión de salud dental, citas, historial clínico">
+    <meta
+      name="keywords"
+      content="portal de pacientes, gestión de salud dental, citas, historial clínico"
+    />
     <!--icono-->
     <script
       src="https://kit.fontawesome.com/3d04d0da9c.js"
@@ -32,14 +35,15 @@
       crossorigin="anonymous"
     ></script>
     <!--animacion-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--css-->
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>Portal pacientes</title>
+    <title>Portal pacientes | Od Agustina Vottero</title>
   </head>
   <body>
+    <!--header-->
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top" id="bar">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"
             ><img src="../imagenes/logo2.png" alt="Logo"
@@ -110,23 +114,50 @@
         </div>
       </nav>
     </header>
-    <main class="paciente">
-      <h1>Tu portal</h1>
-      <form action="" method="post">
-        <div>
-          <label for="username">Usuario:</label>
-          <input type="text" id="username" name="username" required />
+    <!--main-->
+    <main>
+      <!--turnos-->
+      <div class="turno">
+        <img
+          src="../imagenes/DENTALMENTE @od.agusvottero (3).png"
+          alt="Logo con sonrisa dentalmente"
+        />
+        <div class="turnoCont">
+          <h1>Podes sacar tu turno sin moverte de tu casa</h1>
+          <ul>
+            <p>Es muy fácil</p>
+            <li>Ir a “quiero mi TURNO”</li>
+            <li>Ingresá tu DNI</li>
+            <li>Si no sos paciente , completá tus datos.</li>
+            <li>
+              Elegí la fecha, hora, cede y profesional con que te gustaría
+              atenderte.
+            </li>
+            <li>Y listo! Ya tenes tu turno.</li>
+          </ul>
+          <button>Quiero mi TURNO</button>
         </div>
-        <div>
-          <label for="password">Contraseña:</label>
-          <input type="password" id="password" name="password" required />
-        </div>
-        <div>
-          <button type="submit">Iniciar sesión</button>
-        </div>
-      </form>
-      <p>¿Olvidaste tu contraseña?</p>
+      </div>
+      <!--formulario paciente-->
+      <div class="paciente">
+        <h2>Tu portal</h2>
+        <form action="" method="post">
+          <div>
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div>
+            <button type="submit">Iniciar sesión</button>
+          </div>
+        </form>
+        <p>¿Olvidaste tu contraseña?</p>
+      </div>
     </main>
+    <!--footer-->
     <footer>
       <a href="../index.html"><img src="../imagenes/logo2.png" alt="Logo" /></a>
       <a href="./contacto.html">Contacto</a>
@@ -138,6 +169,7 @@
         <li>Cerrado</li>
       </ul>
       <div>
+        <!--footer icons-->
         <div class="footer-icons">
           <a href="https://www.youtube.com/watch?v=gKKPWqLjhP4" target="_blank"
             ><i class="fa-brands fa-facebook"></i
@@ -158,6 +190,8 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script> AOS.init();</script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

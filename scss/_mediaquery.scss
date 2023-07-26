@@ -1,6 +1,6 @@
-/*Pseudoclases */
+/*media queries */
 
-@media (max-width:468px){
+@media (max-width: 767px){
     header{
         text-align: center;
     }
@@ -37,5 +37,30 @@
     .nosotros img {
         width: 50%;
     }
-    
+    .nosotros iframe{
+        width: auto;
+    }
+    .turno{
+        flex-direction: column;
+    }
+    .turno img{
+        width: 100%;
+    }
+    .turno .turnoCont button{
+        width:auto;
+    }
+    .turno h1{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    header{
+        text-align: center;
+    }
+    .servicios div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .turno .turnoCont button{
+        width:auto;
+    }
 }

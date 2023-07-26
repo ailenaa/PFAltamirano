@@ -1,16 +1,15 @@
 
-    
+    @import 'condicionales';
+    @import 'variables';
     @import 'mixins';
     @import 'maps';
     @import 'generales';
-    @import 'condicionales';
-    @import 'variables';
     @import 'header';
-    @import 'footer';
     @import 'home';
     @import 'formularios';
     @import 'servicios';
     @import 'pagos';
     @import 'nosotros';
-    @import 'pseudoclases';
+    @import 'footer';
+    @import 'mediaquery';
 

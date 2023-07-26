@@ -1,17 +1,20 @@
  /* Header */
     header {
     width: $ancho-imagen;
-    nav{
-    a,
-    img {
-        max-width: $ancho-imagen;
-        height: auto;
+    #bar{
+        padding: 0%;
     }
-    div {
+    nav{
+        a,
+        img {
+            max-width: $ancho-imagen;
+            height: auto;
+        }
+        div {
         background-color:map-get($colores, secundario);
         justify-content: flex-end;
-    }
-    ul {
+        }
+        ul {
         margin: 20px;
         li {
             margin-right: 20px;
@@ -21,9 +24,7 @@
             &:hover{
                 transform: scale(1.2);
                 text-decoration: overline;
-                a {
-                    text-decoration: none;
-                }
+                
             }
         }
     }

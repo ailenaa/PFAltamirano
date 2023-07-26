@@ -39,6 +39,13 @@
             margin-bottom: 20px;
             border-radius: 10px;
         }
+        a{
+            text-decoration: none;
+            color:#d1574c ;
+            &:hover {
+                background-color: #d9ceb0;
+            }
+        }
     }
     .paciente{
         margin-top: 50px;
@@ -86,7 +93,7 @@
             text-transform: uppercase;
             &:hover {
                 transform: scale(1.05);
-                background-color: #9dc4b5;
+                background-color: #f7ebd1;
             }
         }
     }
@@ -94,6 +101,7 @@
         width: $ancho-imagen;
         height: auto;
         border-radius: 8px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     }
     h2 {
         font-size: 24px; 
@@ -119,11 +127,21 @@
             text-align: center;
         }
         button{
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #afb6d6;
+            transition: 1s;
             a{
-                text-decoration: none;
-                background-color: transparent;
                 color: #000000;
+                text-decoration: none;
             }
+        &:hover {
+        transform: scale(1.2);
+        }
         }
     }
 }

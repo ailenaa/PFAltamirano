@@ -10,8 +10,11 @@
       content="Descubre nuestra amplia gama de servicios dentales para el cuidado integral de tu 
       salud bucal. Desde limpiezas y exámenes hasta ortodoncia y estética dental."
     />
-    <meta name="keywords" content="servicios dentales, cuidado dental, limpiezas, exámenes, 
-    ortodoncia, estética dental">
+    <meta
+      name="keywords"
+      content="servicios dentales, cuidado dental, limpiezas, exámenes, 
+    ortodoncia, estética dental"
+    />
     <!--icono-->
     <script
       src="https://kit.fontawesome.com/3d04d0da9c.js"
@@ -32,15 +35,16 @@
       crossorigin="anonymous"
     ></script>
     <!--animacion-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--css-->
     <link rel="stylesheet" href="../css/styles.css" />
 
-    <title>Servicios</title>
+    <title>Servicios | Od Agustina Vottero</title>
   </head>
   <body>
+    <!--header-->
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top" id="bar">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"
             ><img src="../imagenes/logo2.png" alt="Logo"
@@ -111,8 +115,10 @@
         </div>
       </nav>
     </header>
+    <!--main-->
     <main class="serviciosMain">
       <h1>Nuestros Servicios</h1>
+      <!--servicios-->
       <section class="servicios">
         <h2>¿En que podemos ayudarte?</h2>
         <div>
@@ -140,10 +146,12 @@
           </a>
         </div>
       </section>
+      <!--img decorativa-->
       <section class="wave">
-        <img src="../imagenes/wave.png" alt="">
+        <img src="../imagenes/wave.png" alt="" />
         <img src="../imagenes/wave2.png" alt="wave" />
       </section>
+      <!--formulario contacto-->
       <section class="formulario">
         <h2>Si tenés alguna duda</h2>
         <h3>CONTACTANOS!</h3>
@@ -161,21 +169,22 @@
               <label for="contrasena">Contraseña</label>
               <input type="password" id="contrasena" name="contrasena" />
             </div>
-          <div>
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" />
-          </div>
-          <div>
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje"></textarea>
-          </div>
-        </fieldset>
+            <div>
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div>
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+          </fieldset>
           <div>
             <button type="submit">Enviar</button>
           </div>
         </form>
       </section>
     </main>
+    <!--footer-->
     <footer>
       <a href="../index.html"><img src="../imagenes/logo2.png" alt="Logo" /></a>
       <a href="./contacto.html">Contacto</a>
@@ -187,6 +196,7 @@
         <li>Cerrado</li>
       </ul>
       <div>
+        <!--footer icons-->
         <div class="footer-icons">
           <a href="https://www.youtube.com/watch?v=gKKPWqLjhP4" target="_blank"
             ><i class="fa-brands fa-facebook"></i
@@ -207,6 +217,8 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script> AOS.init();</script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
