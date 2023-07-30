@@ -37,4 +37,4 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
 ## Contacto
 
-Para cualquier consulta o duda relacionada con el proyecto, puedes contactarme a través de [correo@example.com](altamiranoailen95@gmail.com)
+Para cualquier consulta o duda relacionada con el proyecto, puedes contactarme a través de [altamiranoailen95@gmail.com](altamiranoailen95@gmail.com)
